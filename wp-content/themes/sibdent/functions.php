@@ -1,4 +1,4 @@
-<?
+<?php
 // Подключаем посттайпы и опции
 require_once (TEMPLATEPATH . '/library/sale.php');
 require_once (TEMPLATEPATH . '/library/review.php');
@@ -30,6 +30,7 @@ function register_my_menus() {
 		'price-menu' => 'Прайс',		
 	));
 }
+
 // поддержка меню
 add_action( 'init', 'register_my_menus' );
 //Логотип
