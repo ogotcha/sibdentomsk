@@ -1,4 +1,18 @@
 <?php global $mytheme; ?>
+
+<?php 
+//добавляет класс my__hide в пункт меню 381(Онлайн запись)
+add_filter( 'nav_menu_css_class', 'change_menu_item_css_classes', 10, 4 );
+
+function change_menu_item_css_classes( $classes, $item, $args, $depth ) {
+	if( 381 === $item->ID){
+		$classes[] = 'my__hide';
+	}
+
+	return $classes;
+}
+?>
+
 <div class="container">
 <div class="sidebar">
 

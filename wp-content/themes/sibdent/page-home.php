@@ -209,7 +209,7 @@ endif; ?>
         </div>
 
         <div class="popup-form">
-            <? echo do_shortcode('[contact-form-7 id="512" title="Запись с главной"]'); ?>
+            <?php echo do_shortcode('[contact-form-7 id="512" title="Запись с главной"]'); ?>
         </div>
     </div>
 

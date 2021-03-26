@@ -27,6 +27,7 @@ html {
 /**
   * Remove default margin.
   */
+
 body {
   margin: 0;
 }
@@ -444,11 +445,24 @@ a {
   font-size: 30px;
 }
 
+.selectorstyle {
+	width: 100%;
+    height: 40px;
+    padding: 5px;
+    font-family: Roboto;
+}
+
+
+.my__hide {
+	display:none !important;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 991px;
   }
 }
+
 
 .overlay {
   z-index: 99;
@@ -753,6 +767,7 @@ span.wpcf7-not-valid-tip {
   color: rgba(0, 0, 0, 0.4);
 }
 
+
 .sidebar-bottom__text a:hover {
   color: #666666;
 }
@@ -810,10 +825,14 @@ span.wpcf7-not-valid-tip {
 @media (max-height: 900px) {
   .sidebar-bottom {
     position: static;
-    margin-top: 15px;
+    margin-top: 45px;
   }
   .sidebar-nav__btn{
 	margin-top: 10px;
+  }
+
+  .sidebar-nav {
+  margin-top: 30px; 
   }
 }
 
@@ -877,7 +896,7 @@ span.wpcf7-not-valid-tip {
     margin-left: 0;
   }
   .popup {
-    width: 280px;
+    width: 340px;
   }
   .popup__title {
     font-size: 17px;
